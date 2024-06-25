@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, legend, button {
+  font-family: "Staatliches", sans-serif;
+  color: #535971;
+}
+
+p, label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+body {
+  background: rgb(243, 241, 241);
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+header h1, p{
+  width: 50%;
+  font-weight: normal;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: normal;
+  color: white;
+
+  margin-bottom: 18px;
+}
+
+header p{
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+
+#header-wrapper {
+  width: 750px;
+  margin: 125px auto 0;
+}
+#page {
+  width: 750px;
+  background: white;
+  min-height: 350px;
+  border-radius: 20px 20px 0 0;
+
+  margin:58px auto 0;
+  padding: 32px 64px;
+}
+
+fieldset{
+  border: none;
+  margin-top: 30px;
+}
+
+fieldset.hours{
+  border: none;
+  margin-top: 16px;
+}
+
+#fieldset-wrapper legend {
+  font-size: 28px;
+ 
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6F0;
+  margin: 0 auto 36px;
+}
+
+#fieldset-wrapper legend#sub-legend {
+  font-size: 20px;
+  border: none;
+  padding: 0;
+  margin: 0 0 8px;
+
+}
+
+#flex-wrapper {
+  display: flex;
+  gap: 22px;
+
+  justify-content: space-between;
+}
+
+#input-wrapper-mod {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-top: 8px;
+}
+
+#input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-top: 16px;
+}
+
+#input-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-top: 8px;
+}
+
+input {
+  height: 56px;
+  border-style: solid;
+  border-color: #E6E6F0;
+  background: #FAFAFC;
+  border-radius: 8px;
+
+  font-size: 16px;
+  color: #959398;
+
+  padding: 0 24px;
+}
+
+span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #C1BCCC;
+
+  margin-left: 9px;
+}
+
+#down-wrapper {
+  width: 750px;
+  height: 160px;
+  background: #535971;
+
+  margin: 0 auto 64px;
+  padding: 52px 71px;
+
+  border-radius: 0 0 20px 20px;
+}
+
+#down-wrapper button {
+  width: 608px;
+  height: 56px;
+  background: #FF5374;
+  color: white;
+  border: none;
+
+  font-size: 20px;
+  font-weight: normal;
+
+  border-radius: 20px;
+}
+
+#down-wrapper button:hover {
+  background: #f8617f;
+  cursor: pointer;
+}
